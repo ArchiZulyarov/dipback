@@ -1,0 +1,9 @@
+@import '../../root-styles/variables';
+
+.constructor {
+  background-color: $background-accent;
+  border-radius: 24px;
+  display: grid;
+  grid-template-columns: 1fr 720px;
+  flex-grow: 1;
+}

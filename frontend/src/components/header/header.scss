@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 48px;
+
+  &__link {
+    width: 132px;
+    height: 64px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+}

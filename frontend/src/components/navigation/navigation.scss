@@ -1,0 +1,32 @@
+@import '../../root-styles/variables';
+
+.navigation {
+
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    list-style: none;
+  }
+
+  &__link {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    padding-bottom: 12px;
+    border-bottom: 2px solid transparent;
+    transition: border .2s ease, color .2s ease;
+    color: $text-secondary;
+
+    &_active {
+      border-bottom-color: $primary;
+      color: $text-primary;
+    }
+
+    &:hover {
+      color: $primary
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "./static/css/main.64ef743f.css",
+    "main.js": "./static/js/main.5caea27e.js",
+    "static/js/364.47635859.chunk.js": "./static/js/364.47635859.chunk.js",
+    "static/media/banner.jpg": "./static/media/banner.6299df3ffd4af6582d6c.jpg",
+    "static/media/about-2.png": "./static/media/about-2.49a69302fa550fa3eacf.png",
+    "static/media/stub.png": "./static/media/stub.f8099b6546cd137b779b.png",
+    "static/media/ProximaNova-Regular.woff": "./static/media/ProximaNova-Regular.3d59ce3e9d6f49acb285.woff",
+    "static/media/ProximaNova-Bold.woff": "./static/media/ProximaNova-Bold.7bbe1c8847f08b1633a0.woff",
+    "static/media/ProximaNova-Semibold.woff": "./static/media/ProximaNova-Semibold.9d060ce65c8a91d38e21.woff",
+    "static/media/ProximaNova-Extrabld.woff": "./static/media/ProximaNova-Extrabld.c611b0015a7f48f62cfc.woff",
+    "static/media/ProximaNova-Regular.woff2": "./static/media/ProximaNova-Regular.c4c3616c5577f9e7ef87.woff2",
+    "static/media/ProximaNova-Bold.woff2": "./static/media/ProximaNova-Bold.c84883dfcd4817e310df.woff2",
+    "static/media/ProximaNova-Semibold.woff2": "./static/media/ProximaNova-Semibold.54b9eb90d4b941f9371e.woff2",
+    "static/media/ProximaNova-Extrabld.woff2": "./static/media/ProximaNova-Extrabld.51e73062e691a23fb801.woff2",
+    "static/media/logo.svg": "./static/media/logo.c906ae6ef665f7881f8a.svg",
+    "static/media/curve.svg": "./static/media/curve.19dab1a2015831420ac8.svg",
+    "static/media/arrow.svg": "./static/media/arrow.68e408d3416a8c0b3346.svg",
+    "static/media/increment-green.svg": "./static/media/increment-green.1ca139e6cd2e67ca65d2.svg",
+    "static/media/increment-white.svg": "./static/media/increment-white.027c9766fcd5ae245624.svg",
+    "static/media/search-focused.svg": "./static/media/search-focused.3e756bac9e83276a70dd.svg",
+    "static/media/search.svg": "./static/media/search.1341a087e68ead584f4c.svg",
+    "index.html": "./index.html",
+    "static/media/decrement-green.svg": "./static/media/decrement-green.5290473df72256e7af58.svg",
+    "static/media/decrement-white.svg": "./static/media/decrement-white.9084cf99fc579a183c6d.svg",
+    "main.64ef743f.css.map": "./static/css/main.64ef743f.css.map",
+    "main.5caea27e.js.map": "./static/js/main.5caea27e.js.map",
+    "364.47635859.chunk.js.map": "./static/js/364.47635859.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64ef743f.css",
+    "static/js/main.5caea27e.js"
+  ]
+}

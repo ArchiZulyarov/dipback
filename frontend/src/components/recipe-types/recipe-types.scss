@@ -1,0 +1,43 @@
+@import '../../root-styles/variables';
+
+.recipe-types {
+
+  &__list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    background-color: $background-accent;
+    border-radius: 100px;
+  }
+
+  &__list-item {
+
+  }
+
+  &__button {
+    border: 0;
+    color: $text-secondary;
+    background-color: $background-accent;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    width: 187px;
+    padding: 18px 0;
+    border-radius: 100px;
+    transition: color .2s ease, background-color .2s ease;
+
+    &:hover {
+      color: $primary;
+      cursor: pointer;
+    }
+
+    &_active {
+      background-color: $primary;
+      color: $text-light;
+
+      &:hover {
+        color: $text-light;
+      }
+    }
+  }
+}

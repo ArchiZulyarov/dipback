@@ -1,0 +1,63 @@
+@import '../../root-styles/variables';
+
+.constructor-ingredient {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
+
+  &:not(:last-child) {
+    border-bottom: 2px solid #F5F7F9;
+  }
+
+  &__title {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+  }
+
+  &__container {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  &__count {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+  }
+
+  &__button {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 12px;
+    border: 0;
+    background-color: $background;
+    transition: background .2s ease;
+
+    &:hover {
+      background-color: $primary;
+      cursor: pointer;
+    }
+
+    &_decrement {
+      background-image: url("../../assets/images/decrement-green.svg");
+
+      &:hover {
+        background-image: url("../../assets/images/decrement-white.svg");
+      }
+    }
+
+    &_increment {
+      background-image: url("../../assets/images/increment-green.svg");
+
+      &:hover {
+        background-image: url("../../assets/images/increment-white.svg");
+      }
+    }
+  }
+}
